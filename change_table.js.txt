@@ -1,0 +1,69 @@
+//Table.js
+export function Table1_1() {
+  return(
+      <div class='t'>
+        <Table columns={detail1} dataSource={frist1} onChange={onChange}/>
+      </div>
+  );
+}
+export function Table1_2() {
+return(
+  <div class='t'>
+    <Table columns={compact1} dataSource={data1} onChange={onChange}/>
+    </div>
+);
+}
+export function Table1_3() {
+  return(
+    <div class='t'>
+      <Table columns={column1} dataSource={ffrist1} onChange={onChange} pagination={false}/>
+      <Table columns={column1_2} dataSource={ffrist1} onChange={onChange} pagination={false}/>
+    </div>
+  );
+}
+export function Table2_1() {
+  return(
+    <div class='t'>
+    <Table columns={detail2} dataSource={frist2} onChange={onChange}/></div>
+  );
+}
+export function Table2_2() {
+return(
+  <div class='t'>
+    <Table columns={compact2} dataSource={data2} onChange={onChange}/></div>
+);
+}
+export function Table2_3() {
+  return(
+    <div class='t'>
+      <Table columns={column2} dataSource={ffrist2} onChange={onChange} pagination={false}/>
+      <Table columns={column2_2} dataSource={ffrist2} onChange={onChange} pagination={false}/>
+      <Table columns={column2_3} dataSource={ffrist2} onChange={onChange} pagination={false}/>
+      <Table columns={column2_4} dataSource={ffrist2} onChange={onChange} pagination={false}/>
+    </div>
+  );
+}
+--------------------------------------------
+export function Table3_1() {
+    return(
+      <div class='t'>
+        <Table columns={detail3} dataSource={love} onChange={onChange}/></div>
+    );
+}
+export function Table3_2() {
+  return(
+    <div class='t'>
+      <Table columns={compact3} dataSource={data3} onChange={onChange}/></div>
+  );
+}
+export function Table3_3() {
+  return(
+    <div class='t'>
+      <Table columns={column3} dataSource={ffrist3} onChange={onChange} pagination={false}/>
+      <Table columns={column3_2} dataSource={ffrist3} onChange={onChange} pagination={false}/>
+      <Table columns={column3_3} dataSource={ffrist3} onChange={onChange} pagination={false}/>
+      <Table columns={column3_4} dataSource={ffrist3} onChange={onChange} pagination={false}/>
+      <Table columns={column3_5} dataSource={ffrist3} onChange={onChange} pagination={false}/>
+    </div>
+  );
+}
